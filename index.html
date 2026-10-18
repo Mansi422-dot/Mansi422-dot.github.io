@@ -447,64 +447,191 @@ section{scroll-margin-top:24px;}
       </div>
     </section>
 
-    <!-- PROJECTS -->
-    <section id="projects" style="margin-bottom:44px;">
-      <div class="sec-head"><span class="sec-ic">💻</span><span class="sec-title">featured_projects</span></div>
-      <div class="proj-grid">
-        <div class="proj-card">
-          <div class="proj-badge">🔍</div>
-          <div class="proj-title">Automated Reconnaissance Framework</div>
-          <div class="proj-scope">solo_project</div>
-          <p class="proj-desc">Python/Bash automation integrating Nmap, FFUF, and Nuclei for subdomain discovery,
-          port scanning, and vulnerability detection.</p>
-          <div class="proj-chips"><span class="pchip">Python</span><span class="pchip">Bash</span><span class="pchip">Nmap</span><span class="pchip">FFUF</span><span class="pchip">Nuclei</span></div>
-          <a class="proj-link" href="https://github.com/Mansi422-dot" target="_blank" rel="noopener">view_on_github →</a>
-        </div>
-        <div class="proj-card">
-          <div class="proj-badge">✉️</div>
-          <div class="proj-title">Phishing &amp; Email Spoofing Detection</div>
-          <div class="proj-scope">group_project</div>
-          <p class="proj-desc">Flask tool that parses email headers and validates SPF, DKIM, and DMARC records to
-          flag likely phishing and spoofing attempts.</p>
-          <div class="proj-chips"><span class="pchip">Python</span><span class="pchip">Flask</span><span class="pchip">SPF/DKIM/DMARC</span></div>
-          <a class="proj-link" href="https://github.com/Mansi422-dot" target="_blank" rel="noopener">view_on_github →</a>
-        </div>
-        <div class="proj-card">
-          <div class="proj-badge">⛓️</div>
-          <div class="proj-title">Blue Carbon Registry &amp; MRV System</div>
-          <div class="proj-scope">group_project</div>
-          <p class="proj-desc">Solidity smart contracts with a React.js frontend enabling a secure carbon credit
-          registry with monitoring, reporting, verification, and token exchange.</p>
-          <div class="proj-chips"><span class="pchip">Solidity</span><span class="pchip">React.js</span><span class="pchip">Web3</span></div>
-          <a class="proj-link" href="https://github.com/Mansi422-dot" target="_blank" rel="noopener">view_on_github →</a>
-        </div>
-        <div class="proj-card">
-          <div class="proj-badge">🧮</div>
-          <div class="proj-title">Calculator</div>
-          <div class="proj-scope">solo_project</div>
-          <p class="proj-desc">A JavaScript-based calculator built while learning frontend fundamentals.</p>
-          <div class="proj-chips"><span class="pchip">HTML</span><span class="pchip">CSS</span><span class="pchip">JavaScript</span></div>
-          <a class="proj-link" href="https://github.com/Mansi422-dot" target="_blank" rel="noopener">view_on_github →</a>
-        </div>
-        <div class="proj-card">
-          <div class="proj-badge">📝</div>
-          <div class="proj-title">Form Validation</div>
-          <div class="proj-scope">solo_project</div>
-          <p class="proj-desc">A form validation script covering common input checks and error handling.</p>
-          <div class="proj-chips"><span class="pchip">HTML</span><span class="pchip">CSS</span><span class="pchip">JavaScript</span></div>
-          <a class="proj-link" href="https://github.com/Mansi422-dot" target="_blank" rel="noopener">view_on_github →</a>
-        </div>
-        <div class="proj-card">
-          <div class="proj-badge">🛰️</div>
-          <div class="proj-title">AnalystOne</div>
-          <div class="proj-scope wip">soc_project · in_progress 🚧</div>
-          <p class="proj-desc">A security operations project applying SIEM concepts, log analysis, and alert
-          triage — built to practice SOC analyst workflows hands-on.</p>
-          <div class="proj-chips"><span class="pchip">SOC</span><span class="pchip">SIEM</span><span class="pchip">Splunk</span></div>
-        </div>
-      </div>
-    </section>
+```html
+<!-- PROJECTS -->
+<section id="projects" style="margin-bottom:44px;">
+  <div class="sec-head">
+    <span class="sec-ic">💻</span>
+    <span class="sec-title">featured_projects</span>
+  </div>
 
+  <div class="proj-grid">
+
+    <!-- AI KNOWLEDGE ASSISTANT -->
+    <div class="proj-card">
+      <div class="proj-badge">🤖</div>
+      <div class="proj-title">AI Knowledge Assistant with RAG</div>
+      <div class="proj-scope">solo_project</div>
+      <p class="proj-desc">
+        Built a retrieval-augmented generation (RAG) application that
+        ingests documents, performs semantic search, and generates
+        context-grounded answers with source citations. Includes
+        document management, persistent vector storage, and
+        user-isolated access.
+      </p>
+      <div class="proj-chips">
+        <span class="pchip">RAG</span>
+        <span class="pchip">LLMs</span>
+        <span class="pchip">Embeddings</span>
+        <span class="pchip">Vector Search</span>
+        <span class="pchip">REST APIs</span>
+      </div>
+      <a class="proj-link"
+         href="https://ai-knowledge.hatchable.site"
+         target="_blank" rel="noopener noreferrer">
+        live_demo →
+      </a>
+      <a class="proj-link"
+         href="https://github.com/Mansi422-dot"
+         target="_blank" rel="noopener noreferrer">
+        github_profile →
+      </a>
+    </div>
+
+    <!-- GRC PLATFORM -->
+    <div class="proj-card">
+      <div class="proj-badge">🛡️</div>
+      <div class="proj-title">Security Controls &amp; Compliance Assessment</div>
+      <div class="proj-scope wip">grc_project · in_progress 🚧</div>
+      <p class="proj-desc">
+        Developing a Governance, Risk, and Compliance platform for
+        security risk assessments, control management, framework
+        mapping, control testing, evidence tracking, findings,
+        and remediation workflows across NIST CSF, ISO 27001,
+        and SOC 2.
+      </p>
+      <div class="proj-chips">
+        <span class="pchip">Python</span>
+        <span class="pchip">FastAPI</span>
+        <span class="pchip">JavaScript</span>
+        <span class="pchip">SQLite</span>
+        <span class="pchip">GRC</span>
+      </div>
+      <a class="proj-link"
+         href="https://github.com/Mansi422-dot"
+         target="_blank" rel="noopener noreferrer">
+        github_profile →
+      </a>
+    </div>
+
+    <!-- TASKFLOW -->
+    <div class="proj-card">
+      <div class="proj-badge">📋</div>
+      <div class="proj-title">TaskFlow</div>
+      <div class="proj-scope">solo_project</div>
+      <p class="proj-desc">
+        A task management application designed to organize work
+        through task creation, assignment, prioritization, and
+        status tracking. Focuses on object-oriented design,
+        input validation, exception handling, and reliable
+        task data management.
+      </p>
+      <div class="proj-chips">
+        <span class="pchip">Java</span>
+        <span class="pchip">OOP</span>
+        <span class="pchip">Collections</span>
+        <span class="pchip">File Persistence</span>
+        <span class="pchip">Testing</span>
+      </div>
+      <a class="proj-link"
+         href="https://github.com/Mansi422-dot"
+         target="_blank" rel="noopener noreferrer">
+        github_profile →
+      </a>
+    </div>
+
+    <!-- ANALYSTONE -->
+    <div class="proj-card">
+      <div class="proj-badge">🛰️</div>
+      <div class="proj-title">AnalystOne</div>
+      <div class="proj-scope wip">soc_project · in_progress 🚧</div>
+      <p class="proj-desc">
+        Building a security operations project focused on
+        SIEM concepts, log analysis, alert triage, and
+        hands-on SOC analyst workflows.
+      </p>
+      <div class="proj-chips">
+        <span class="pchip">SOC</span>
+        <span class="pchip">SIEM</span>
+        <span class="pchip">Splunk</span>
+        <span class="pchip">Log Analysis</span>
+      </div>
+    </div>
+
+    <!-- AUTOMATED RECONNAISSANCE -->
+    <div class="proj-card">
+      <div class="proj-badge">🔍</div>
+      <div class="proj-title">Automated Reconnaissance Framework</div>
+      <div class="proj-scope">solo_project</div>
+      <p class="proj-desc">
+        Automated security reconnaissance by integrating tools
+        for subdomain discovery, port scanning, content discovery,
+        and vulnerability detection into a repeatable workflow.
+      </p>
+      <div class="proj-chips">
+        <span class="pchip">Python</span>
+        <span class="pchip">Bash</span>
+        <span class="pchip">Nmap</span>
+        <span class="pchip">FFUF</span>
+        <span class="pchip">Nuclei</span>
+      </div>
+      <a class="proj-link"
+         href="https://github.com/Mansi422-dot"
+         target="_blank" rel="noopener noreferrer">
+        github_profile →
+      </a>
+    </div>
+
+    <!-- PHISHING DETECTION -->
+    <div class="proj-card">
+      <div class="proj-badge">✉️</div>
+      <div class="proj-title">Phishing &amp; Email Spoofing Detection</div>
+      <div class="proj-scope">group_project</div>
+      <p class="proj-desc">
+        Developed a Flask-based tool to inspect email headers and
+        validate SPF, DKIM, and DMARC signals to help identify
+        suspicious messages and potential email spoofing.
+      </p>
+      <div class="proj-chips">
+        <span class="pchip">Python</span>
+        <span class="pchip">Flask</span>
+        <span class="pchip">Email Security</span>
+        <span class="pchip">SPF/DKIM/DMARC</span>
+      </div>
+      <a class="proj-link"
+         href="https://github.com/Mansi422-dot"
+         target="_blank" rel="noopener noreferrer">
+        github_profile →
+      </a>
+    </div>
+
+    <!-- BLUE CARBON REGISTRY -->
+    <div class="proj-card">
+      <div class="proj-badge">⛓️</div>
+      <div class="proj-title">Blue Carbon Registry &amp; MRV System</div>
+      <div class="proj-scope">group_project</div>
+      <p class="proj-desc">
+        Built a blockchain-based carbon credit registry concept
+        using smart contracts and a web frontend for monitoring,
+        reporting, verification, and carbon credit transactions.
+      </p>
+      <div class="proj-chips">
+        <span class="pchip">Solidity</span>
+        <span class="pchip">React.js</span>
+        <span class="pchip">Web3</span>
+        <span class="pchip">Smart Contracts</span>
+      </div>
+      <a class="proj-link"
+         href="https://github.com/Mansi422-dot"
+         target="_blank" rel="noopener noreferrer">
+        github_profile →
+      </a>
+    </div>
+
+  </div>
+</section>
+```
+    
     <!-- GITHUB WIDGETS (live) -->
     <section style="margin-bottom:44px;">
       <div class="gh-grid">
