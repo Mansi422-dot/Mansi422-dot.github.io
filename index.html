@@ -545,27 +545,59 @@ section{scroll-margin-top:24px;}
       </div>
     </div>
     
-    <!-- GRC PLATFORM -->
+    <!-- NEXUSVULNSCANNER -->
     <div class="proj-card">
       <div class="proj-badge">🛡️</div>
-      <div class="proj-title">Security Controls &amp; Compliance Assessment</div>
-      <div class="proj-scope wip">grc_project · in_progress 🚧</div>
+      <div class="proj-title">Automated OWASP Top 10 Vulnerability Scanner</div>
+      <div class="proj-scope wip">NexusVuln Scanner</div>
       <p class="proj-desc">
-        Developing a Governance, Risk, and Compliance platform for
-        security risk assessments, control management, framework
-        mapping, control testing, evidence tracking, findings,
-        and remediation workflows across NIST CSF, ISO 27001,
-        and SOC 2.
+        Built an authorization-gated web vulnerability scanner covering all
+        ten OWASP Top 10 (2021) categories, with a local browser dashboard
+        for one-command operation. Ingests recon/fuzzing output (nmap, ffuf,
+        gobuster, httpx, dirsearch, gau/waybackurls/katana) with automatic
+        WAF/CDN artifact filtering and live scope re-validation, separates
+        passive from opt-in active probing, and generates full HTML/Markdown/
+        JSON reports with PoC, impact, remediation, and manual-validation
+        checklists per finding. Used against live Intigriti/HackerOne bug
+        bounty programs.
+      </p>
+      <div class="proj-chips">
+        <span class="pchip">Python</span>
+        <span class="pchip">Flask</span>
+        <span class="pchip">OWASP Top 10</span>
+        <span class="pchip">Requests</span>
+        <span class="pchip">PyYAML</span>
+        <span class="pchip">tldextract</span>
+        <span class="pchip">Red Team</span>
+        <span class="pchip">Bug Bounty</span>
+      </div>
+    </div>
+
+    <!-- SECUREFORGE -->
+    <div class="proj-card">
+      <div class="proj-badge">🔐</div>
+      <div class="proj-title">Unified Application Security &amp; Vulnerability Management</div>
+      <div class="proj-scope wip">SecureForge</div>
+      <p class="proj-desc">
+        Developing a centralized application security platform that
+        integrates automated security scanning, vulnerability
+        identification, prioritization, and remediation workflows.
+        Combines SAST, SCA, container security, secret detection,
+        and DAST using Semgrep, OSV, Trivy, Gitleaks, and OWASP ZAP,
+        with centralized vulnerability management and security analytics.
       </p>
       <div class="proj-chips">
         <span class="pchip">Python</span>
         <span class="pchip">FastAPI</span>
-        <span class="pchip">JavaScript</span>
-        <span class="pchip">SQLite</span>
-        <span class="pchip">GRC</span>
+        <span class="pchip">PostgreSQL</span>
+        <span class="pchip">Docker</span>
+        <span class="pchip">Semgrep</span>
+        <span class="pchip">Trivy</span>
+        <span class="pchip">OWASP ZAP</span>
+        <span class="pchip">DevSecOps</span>
       </div>
     </div>
-
+    
     <!-- PHISHING DETECTION -->
     <div class="proj-card">
       <div class="proj-badge">✉️</div>
